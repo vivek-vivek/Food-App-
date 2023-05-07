@@ -32,7 +32,7 @@ Here are some screenshots of the app:
 
 ![Cart Page](https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/cart_screen_pzttb4.png)
 
-![Drawer Page](https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/home_screen_nm0gzv.png)
+![Drawer Page](https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/drawer_screen_y2i78b.png)
 
 
 
