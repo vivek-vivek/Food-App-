@@ -23,7 +23,7 @@ This repository contains a Flutter app developed for an assessment given by a co
 
 Here are some screenshots of the app:
 
-![Login Page]  (https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/login_screen_c1ttph.png)
+![Login Page](https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/login_screen_c1ttph.png)
 
 ![Phone Number Verification Page](https://res.cloudinary.com/deyoek1lq/image/upload/v1683457496/phone_number_afcpen.png)
 
