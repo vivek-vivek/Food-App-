@@ -42,7 +42,7 @@ class SignInScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       const Text(
-                        'Zartek',
+                        'Firebase',
                         style: TextStyle(
                           color: CustomColors.firebaseYellow,
                           fontSize: 24,
@@ -70,7 +70,6 @@ class SignInScreen extends StatelessWidget {
                       return const Text('Error initializing Firebase');
                     } else if (snapshot.connectionState ==
                         ConnectionState.done) {
-                  
                       return const PhoneNumberSignInButton();
                     }
                     return const CircularProgressIndicator(
