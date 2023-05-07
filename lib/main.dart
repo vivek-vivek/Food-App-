@@ -1,4 +1,7 @@
+import 'package:assignment_test_for_the_zartek/provider/cart_provider.dart';
+import 'package:assignment_test_for_the_zartek/provider/home_provider.dart';
 import 'package:assignment_test_for_the_zartek/provider/sign_in_provider.dart';
+import 'package:assignment_test_for_the_zartek/view%20model/home_screen.dart';
 import 'package:assignment_test_for_the_zartek/view%20model/sign_in_screen.dart';
 import 'package:assignment_test_for_the_zartek/view%20model/user_info_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -25,7 +28,18 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider<SignInProvider>(
-            create: (context) => SignInProvider())
+          create: (context) => SignInProvider(),
+        ),
+
+        ChangeNotifierProvider<HomeProvider>(
+          create: (context) => HomeProvider(),
+        ),
+
+        ChangeNotifierProvider<CartProvider>(
+          create: (context) => CartProvider(),
+        ),
+
+        
       ],
       child: MaterialApp(
         title: 'unknown',
@@ -38,7 +52,7 @@ class MyApp extends StatelessWidget {
           stream: FirebaseAuth.instance.authStateChanges(),
           builder: (context, usersnapshort) {
             if (usersnapshort.hasData) {
-              return const UserInfoScreen();
+              return const HomeScreen();
             }
             return const SignInScreen();
           },

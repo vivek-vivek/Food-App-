@@ -10,6 +10,6 @@ class CustomColors {
   static const blue = Color.fromARGB(0, 0, 255, 255);
   static const black = Color.fromARGB(0, 0, 0, 0);
   static const white = Color.fromARGB(255, 255, 255, 255);
-
+  static const pink = Colors.pink;
   //rgb()
 }

@@ -39,6 +39,10 @@ dependencies:
   firebase_auth: ^4.5.0
   google_sign_in: ^6.1.0
   provider: ^6.0.5
+  badges: ^2.0.2
+  dio: 5.1.1
+  shared_preferences: ^2.1.0
+  
 
 dev_dependencies:
   flutter_test:
